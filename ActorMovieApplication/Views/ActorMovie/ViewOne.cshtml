@@ -1,0 +1,9 @@
+@model ActorMovieApplication.Models.ActorModel
+<h1>View @Model.actorName</h1>
+<h3>List of Movies : </h3>
+@foreach (MovieModel movie in @Model.movies)
+{
+    <h4>Movie Title : @movie.title</h4>
+    <h4>Movie Description : @movie.desc</h4>
+    <h4>Movie Rating : @movie.rating</h4>
+}
