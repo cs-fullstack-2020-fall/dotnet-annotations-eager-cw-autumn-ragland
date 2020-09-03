@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "c97a7fb2-ffc3-4ad4-b456-545ff455f3fe",
+		"name": "200903-ActorsPersistence",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Actor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "actorName",
+							"value": "Angela Bassett",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:5001/ActorMovie/AddActor",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"ActorMovie",
+						"AddActor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Movie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Boyz n the Hood",
+							"type": "text"
+						},
+						{
+							"key": "desc",
+							"value": "1991 American coming-of-age hood drama film written and directed by John Singleton in his feature directorial debut. It stars Ice Cube, Cuba Gooding Jr., Morris Chestnut, Laurence Fishburne, Nia Long, Regina King, and Angela Bassett",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "actorID",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:5001/ActorMovie/AddMovie",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"ActorMovie",
+						"AddMovie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View One Actor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/ActorMovie/ViewOne?actorID=3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"ActorMovie",
+						"ViewOne"
+					],
+					"query": [
+						{
+							"key": "actorID",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/ActorMovie/ViewAll",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"ActorMovie",
+						"ViewAll"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
