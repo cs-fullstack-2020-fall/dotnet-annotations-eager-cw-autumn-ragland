@@ -1,0 +1,6 @@
+@model ActorMovieApplication.DAO.ActorDbContext;
+<h1>View All Actors</h1>
+@foreach (ActorModel actor in @Model.actors)
+{
+    <h2>Actor : @actor.actorName</h2>
+} 

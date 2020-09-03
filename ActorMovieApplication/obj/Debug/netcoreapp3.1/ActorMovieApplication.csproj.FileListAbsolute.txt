@@ -76,3 +76,5 @@ C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200903\dotnet-annotatio
 C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200903\dotnet-annotations-eager-cw-autumn-ragland\ActorMovieApplication\obj\Debug\netcoreapp3.1\ActorMovieApplication.pdb
 C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200903\dotnet-annotations-eager-cw-autumn-ragland\ActorMovieApplication\obj\Debug\netcoreapp3.1\ActorMovieApplication.genruntimeconfig.cache
 C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200903\dotnet-annotations-eager-cw-autumn-ragland\ActorMovieApplication\obj\Debug\netcoreapp3.1\Razor\Views\ActorMovie\ViewOne.cshtml.g.cs
+C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200903\dotnet-annotations-eager-cw-autumn-ragland\ActorMovieApplication\obj\Debug\netcoreapp3.1\Razor\Views\ActorMovie\Error.cshtml.g.cs
+C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200903\dotnet-annotations-eager-cw-autumn-ragland\ActorMovieApplication\obj\Debug\netcoreapp3.1\Razor\Views\ActorMovie\ViewAll.cshtml.g.cs

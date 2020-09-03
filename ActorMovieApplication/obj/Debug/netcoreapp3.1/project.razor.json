@@ -14427,8 +14427,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200903\\dotnet-annotations-eager-cw-autumn-ragland\\ActorMovieApplication\\Views\\ActorMovie\\Error.cshtml",
+      "TargetPath": "Views\\ActorMovie\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200903\\dotnet-annotations-eager-cw-autumn-ragland\\ActorMovieApplication\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200903\\dotnet-annotations-eager-cw-autumn-ragland\\ActorMovieApplication\\Views\\ActorMovie\\ViewAll.cshtml",
+      "TargetPath": "Views\\ActorMovie\\ViewAll.cshtml",
       "FileKind": "mvc"
     }
   ],
